@@ -38,6 +38,7 @@ imodbits_mace   = imodbit_rusty | imodbit_chipped | imodbit_heavy
 imodbits_pick   = imodbit_rusty | imodbit_chipped | imodbit_balanced | imodbit_heavy
 imodbits_bow = imodbit_cracked | imodbit_bent | imodbit_strong |imodbit_masterwork
 imodbits_crossbow = imodbit_cracked | imodbit_bent | imodbit_masterwork
+imodbits_musket = imodbit_tempered | imodbit_masterwork | imodbit_battered | imodbit_rusty
 imodbits_missile   = imodbit_bent | imodbit_large_bag
 imodbits_thrown   = imodbit_bent | imodbit_heavy| imodbit_balanced| imodbit_large_bag
 imodbits_thrown_minus_heavy = imodbit_bent | imodbit_balanced| imodbit_large_bag
@@ -1231,7 +1232,8 @@ items = [
  1, weight(3)|abundance(100)|head_armor(0)|body_armor(0)|leg_armor(1) ,imodbits_armor ],
 ["warhorse_sarranid","Sarranian War Horse", [("warhorse_sarranid",0)], itp_merchandise|itp_type_horse, 0, 1811,abundance(40)|hit_points(165)|body_armor(58)|difficulty(4)|horse_speed(40)|horse_maneuver(44)|horse_charge(32)|horse_scale(112),imodbits_horse_basic|imodbit_champion, [], [fac_kingdom_6]],
 ["warhorse_steppe","Steppe Charger", [("warhorse_steppe",0)], itp_merchandise|itp_type_horse, 0, 1400,abundance(45)|hit_points(150)|body_armor(40)|difficulty(4)|horse_speed(40)|horse_maneuver(50)|horse_charge(28)|horse_scale(112),imodbits_horse_basic|imodbit_champion, [], [fac_kingdom_3,fac_kingdom_2]],
-
+["tonys_poleaxe","Tony's Poleaxe", [("pole_ax",0)], itp_type_polearm|itp_offset_lance|itp_merchandise| itp_primary|itp_two_handed|itp_wooden_parry, itc_staff,
+ 100 , weight(4.5)|difficulty(13)|spd_rtng(77) | weapon_length(180)|swing_damage(60 , cut) | thrust_damage(20 ,  blunt),imodbits_polearm ],
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
 ##INVASION MODE START

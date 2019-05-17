@@ -3,4 +3,4 @@
 # Make sure you use forward slashes (/) and NOT backward slashes (\)
 
 #export_dir = "../WOTS/Modules/Native/"
-export_dir = "D:\Program Files (x86)\Steam\steamapps\common\MountBlade Warband\Modules\ModTest"
+export_dir = "D:/Program Files (x86)/Steam/steamapps/common/MountBlade Warband/Modules/ModTest/"
